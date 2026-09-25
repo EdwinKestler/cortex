@@ -1,0 +1,472 @@
+{
+  "meta": {
+    "title": "CORTEX | Live-event financing",
+    "description": "CORTEX connects demand forecasts, event vehicles, and verifiable settlement to finance live events."
+  },
+  "common": {
+    "wordmark": "CORTEX",
+    "tagline": "Global capital. Local execution. Continuous underwriting.",
+    "request": "Request access",
+    "contact": "Contact",
+    "learn": "Explore how it works",
+    "back": "Back to home",
+    "menu": "Open menu",
+    "close": "Close menu",
+    "language": "Language",
+    "theme": "Change theme",
+    "dark": "Dark",
+    "light": "Light",
+    "illustrative": "Illustrative data — not real events",
+    "illustrativeCalc": "Illustrative example; not an offer or an expected result.",
+    "qualified": "Information for qualified or accredited investors, subject to eligibility review and private documentation.",
+    "footer": "For discussion purposes only. Financial, lending, digital-asset, securities, AML/KYC, tax and collateral structures are subject to jurisdiction-specific implementation.",
+    "notOffer": "This is not a public securities offering, investment advice, or a promise of returns.",
+    "source": "Source: CORTEX / PRONESYS materials; company estimates.",
+    "skip": "Skip to content",
+    "expand": "Show technical detail",
+    "collapse": "Hide technical detail",
+    "footerNav": "Secondary navigation"
+  },
+  "nav": {
+    "home": "Home",
+    "problem": "Problem",
+    "solution": "Solution",
+    "ctgot": "CT-GOT",
+    "investors": "Investors",
+    "promoters": "Promoters",
+    "technology": "Technology",
+    "market": "Model & market",
+    "pilot": "Pilot",
+    "team": "Team",
+    "contact": "Contact",
+    "legal": "Legal",
+    "design": "Design"
+  },
+  "home": {
+    "eyebrow": "CORTEX / LIVE-EVENT FINANCE",
+    "title": "The operating system for financing live events.",
+    "lead": "CORTEX turns an artist opportunity into an underwritable transaction: demand forecasts, an event vehicle, capital, monitoring, and settlement.",
+    "problemTitle": "Capital goes in before revenue. Evidence arrives afterward.",
+    "problemBody": "Promoters commit before ticket sales begin. Investors lack continuous visibility. Cross-border capital adds legal and settlement friction.",
+    "loop": "One platform. One lifecycle per event.",
+    "loopHint": "Scroll or select a stage to explore its role.",
+    "pillars": "Three functions, one operating record",
+    "pillar1": "AI underwriting",
+    "pillar1Body": "CT-GOT estimates demand, break-even, and risk, then recalculates as sales arrive.",
+    "pillar2": "Capital orchestration",
+    "pillar2Body": "An event vehicle coordinates terms, collateral, and local financing.",
+    "pillar3": "Execution data",
+    "pillar3Body": "Ticketing, sponsors, and execution feed decisions and verifiable settlement.",
+    "closing": "Every event produces evidence for underwriting the next one.",
+    "stages": [
+      {
+        "title": "Opportunity",
+        "body": "Artist offer or soft hold."
+      },
+      {
+        "title": "Simulate",
+        "body": "Venue, price, capacity, and demand."
+      },
+      {
+        "title": "Underwrite",
+        "body": "Risk and return scenarios from CT-GOT."
+      },
+      {
+        "title": "Finance",
+        "body": "Event vehicle, capital, and collateral."
+      },
+      {
+        "title": "Launch",
+        "body": "Ticket sales and marketing."
+      },
+      {
+        "title": "Monitor",
+        "body": "Sales and daily reforecasting."
+      },
+      {
+        "title": "Settle",
+        "body": "Obligations, investors, and residual."
+      }
+    ]
+  },
+  "problem": {
+    "eyebrow": "01 / FRICTION",
+    "title": "Live-event capital arrives late and with limited visibility.",
+    "lead": "An opportunity may be visible long before enough evidence exists to finance it quickly.",
+    "cards": [
+      {
+        "title": "Concentrated promoter risk",
+        "body": "Artist guarantees and venue holds are paid before final sales are known."
+      },
+      {
+        "title": "Opaque accounting",
+        "body": "Fragmented box-office data delays diligence, audit, and repayment."
+      },
+      {
+        "title": "Terms that constrain artists",
+        "body": "Some agreements claim broad rights and delay post-tour settlement."
+      }
+    ],
+    "chain": "Fragmented signals → manual diligence → slow capital",
+    "outro": "CORTEX connects demand evidence, financing, and outcomes in a loop for each event."
+  },
+  "solution": {
+    "eyebrow": "02 / CLOSED LOOP",
+    "title": "One loop connects forecasting, financing, and settlement.",
+    "lead": "Select a stage. Every step creates data or evidence for the next one.",
+    "nodes": [
+      {
+        "title": "Signals",
+        "body": "Tickets, venue, public interest, and sponsors feed underwriting."
+      },
+      {
+        "title": "CT-GOT forecast",
+        "body": "Estimates sales, break-even, and risk before and during the transaction."
+      },
+      {
+        "title": "Event vehicle",
+        "body": "Documents terms, capital allocation, and event governance."
+      },
+      {
+        "title": "GatePass",
+        "body": "Records tickets, access, inventory, and identity to observe execution."
+      },
+      {
+        "title": "Attested close",
+        "body": "Confirms whether the event completed, canceled, or needs review."
+      },
+      {
+        "title": "SplitNight payout",
+        "body": "Applies an agreed priority waterfall and conditions."
+      },
+      {
+        "title": "Learning loop",
+        "body": "Compares forecasts with outcomes to improve the next underwriting."
+      }
+    ],
+    "aside": "From first signal to verifiable outcome."
+  },
+  "ctgot": {
+    "eyebrow": "03 / DEMAND INTELLIGENCE",
+    "title": "Financing decisions grounded in demand and risk.",
+    "lead": "CT-GOT models sales velocity, artist-market fit, capacity, and break-even probability. Underwriting updates with execution data.",
+    "gatesTitle": "Underwriting gates",
+    "gates": [
+      {
+        "title": "Demand",
+        "body": "Sales curves and probability of covering costs."
+      },
+      {
+        "title": "Structure",
+        "body": "Capacity, prices, and event economics."
+      },
+      {
+        "title": "Risk",
+        "body": "Exposure, VaR/CVaR, and new-signal review."
+      }
+    ],
+    "demoTitle": "Scenario explorer",
+    "demoIntro": "All four samples are synthetic. This example's PASS rule requires P(break-even) ≥ 70% and closing p50 sales ≥ break-even; it is not a real investment policy.",
+    "event": "Sample event",
+    "curve": "Projected tickets sold",
+    "p50": "Median (p50)",
+    "p90": "High scenario (p90)",
+    "be": "Break-even",
+    "capacity": "Capacity",
+    "pbe": "P(break-even)",
+    "gate": "Illustrative gate",
+    "pass": "PASS",
+    "fail": "FAIL",
+    "horizon": "Sales-window progress",
+    "table": "Curve data",
+    "sample": "Sample",
+    "generated": "Generated",
+    "sampleNames": {
+      "SYN-001": {
+        "show_name": "Sample A / Mid-size hall",
+        "venue": "Illustrative venue A"
+      },
+      "SYN-002": {
+        "show_name": "Sample B / Amphitheater",
+        "venue": "Illustrative venue B"
+      },
+      "SYN-003": {
+        "show_name": "Sample C / Theater",
+        "venue": "Illustrative venue C"
+      },
+      "SYN-004": {
+        "show_name": "Sample D / Festival",
+        "venue": "Illustrative venue D"
+      }
+    }
+  },
+  "investors": {
+    "eyebrow": "04 / PRIVATE CREDIT",
+    "title": "S.P.A.R.C. Notes: private credit tied to each event.",
+    "lead": "PRONESYS proposes senior notes backed by primary ticketing flows, with event-specific terms and eligibility criteria.",
+    "target1": "10–15%",
+    "target1Label": "target annual yield",
+    "target2": "30–90 days",
+    "target2Label": "target duration",
+    "target3": "4–5%",
+    "target3Label": "target flat preferred return per tour leg, plus possible upside",
+    "targetNote": "Indicative targets from the PRONESYS material. Not guaranteed returns; structure and availability depend on legal and transaction review.",
+    "structure": "Documented priority per event",
+    "structureBody": "The event vehicle is designed to isolate obligations and proceeds. Security rights, repayment priority, and recourse depend on documents and jurisdiction.",
+    "collateral": "Time-locked collateral structure",
+    "collateralBody": "An overcollateralized reserve is intended to absorb drawdowns and cover shortfalls under agreed terms; losses remain possible. Custody is to be confirmed.",
+    "custodyTodo": "TODO: confirm collateral custody and legal treatment in each jurisdiction.",
+    "waterfall": "Illustrative payment waterfall",
+    "tiers": [
+      "1 · Senior principal and preferred return",
+      "2 · Platform fee (2–3% in the source deck)",
+      "3 · Residual split between promoter and artist"
+    ],
+    "calculator": "Distribution calculator",
+    "calculatorIntro": "Enter assumptions to see payment order. If funds run short, part of the senior obligation remains unpaid; this model does not value collateral or recoveries.",
+    "fields": {
+      "tickets": "Ticket revenue",
+      "sponsors": "Sponsorships",
+      "merch": "Merchandise",
+      "food": "Food & beverage",
+      "costs": "Event costs",
+      "principal": "Senior principal",
+      "return": "Preferred return (%)",
+      "fee": "Platform fee (%)",
+      "promoter": "Promoter share (%)",
+      "artist": "Artist share (%)"
+    },
+    "out": {
+      "net": "Event net revenue",
+      "senior": "Senior investor payment",
+      "platform": "Platform fee",
+      "promoter": "Promoter",
+      "artist": "Artist",
+      "shortfall": "Unpaid senior balance",
+      "deficit": "Operating deficit",
+      "residual": "Distributable residual"
+    },
+    "formula": "Rnet = tickets + sponsors + merchandise + food & beverage − event costs. After priority payments, Pᵢ = αᵢ × residual; Σαᵢ = 1.",
+    "pathsTitle": "Three settlement paths",
+    "paths": [
+      {
+        "title": "Success",
+        "steps": [
+          "Underwriting clears",
+          "Vehicle funded",
+          "Event executes",
+          "Close attested",
+          "SplitNight distributes"
+        ]
+      },
+      {
+        "title": "Cancel and refund",
+        "steps": [
+          "Risk alert",
+          "Cancel confirmed",
+          "Proof window",
+          "Refund triggered",
+          "Funds reconciled"
+        ]
+      },
+      {
+        "title": "Exception",
+        "steps": [
+          "Cross-domain issue",
+          "Agreed route",
+          "Timeout",
+          "Recovery process",
+          "Final state recorded"
+        ]
+      }
+    ],
+    "cta": "Request private access",
+    "gateNotice": "Access, eligibility, and any investment require independent checks and transaction-specific documents."
+  },
+  "promoters": {
+    "eyebrow": "05 / PROMOTERS & VENUES",
+    "title": "Finance commitments before tickets go on sale.",
+    "lead": "Explore capital for artist guarantees and venue holds with explicit risk criteria and ongoing sales visibility.",
+    "cards": [
+      {
+        "title": "Prepare the transaction",
+        "body": "Evaluate capacity, demand, price, and costs before committing capital."
+      },
+      {
+        "title": "Connect ticket sales",
+        "body": "GatePass links tickets, inventory, and access to observable execution."
+      },
+      {
+        "title": "Know the payment order",
+        "body": "SplitNight lets parties agree the waterfall before the event."
+      }
+    ],
+    "cta": "Submit an event"
+  },
+  "technology": {
+    "eyebrow": "06 / ARCHITECTURE",
+    "title": "Fast operations. Verifiable evidence. Flexible settlement.",
+    "lead": "Legal wrappers create comfort. Proofs reduce dispute surface.",
+    "layers": [
+      {
+        "title": "Operating control plane",
+        "body": "CT-GOT forecasts, diligence, documents, and monitoring remain off-chain."
+      },
+      {
+        "title": "Verifiable proofs",
+        "body": "RGB-style commitments may link rights and contractual states without publishing sensitive data."
+      },
+      {
+        "title": "Settlement choice",
+        "body": "Payment rules can use an appropriate rail for each transaction. Cross-domain mechanics are reserved for cases where they add value."
+      }
+    ],
+    "techTitle": "Technical detail",
+    "techBody": "Client-side validation verifies proofs; data and documents remain in permissioned systems. Signed attestation confirms the closing state. SplitNight's economic split is specified separately from any cross-network exchange mechanism. Use of RGB or digital assets needs specific engineering and legal review.",
+    "note": "Proposed architecture; each integration needs technical, operational, and legal validation."
+  },
+  "market": {
+    "eyebrow": "07 / ECONOMICS",
+    "title": "A working-capital opportunity in live touring.",
+    "lead": "The market figures and rates below are company estimates drawn from the PRONESYS material, not audited data or CORTEX historical results.",
+    "market1": "USD 40B",
+    "market1Label": "estimated annual live-touring market",
+    "market2": "USD 15B+",
+    "market2Label": "estimated working-capital need",
+    "fees": "Proposed revenue streams",
+    "feeItems": [
+      {
+        "value": "2.0%",
+        "label": "origination fee on pre-financed capital"
+      },
+      {
+        "value": "3.0%",
+        "label": "event-vehicle syndication fee"
+      },
+      {
+        "value": "10%",
+        "label": "proposed primary ticketing spread"
+      },
+      {
+        "value": "20%",
+        "label": "carry on profits above preferred return"
+      }
+    ],
+    "note": "Proposed model; actual fees depend on contracts, regulation, and execution."
+  },
+  "pilot": {
+    "eyebrow": "08 / PROPOSED PLAN",
+    "title": "From event selection to a first measurable transaction.",
+    "lead": "Proposed milestones for a 90-day pilot; these are not closed commitments or achieved results.",
+    "phases": [
+      {
+        "time": "Days 0–30",
+        "title": "Select and structure",
+        "body": "Define pilot events, vehicle templates, and evidence sources; score demand."
+      },
+      {
+        "time": "Days 30–60",
+        "title": "Test financing and ticketing",
+        "body": "Soft-hold offers, private investor access, GatePass tests, and attested-close workflow."
+      },
+      {
+        "time": "Days 60–90",
+        "title": "Execute and document",
+        "body": "Rehearse settlement, finance a first event if conditions clear, and report performance."
+      }
+    ],
+    "ask": "The pilot ask",
+    "askBody": "Strategic capital for an initial cohort, 2–3 financeable opportunities, introductions to promoters and venues, and support for legal structuring."
+  },
+  "team": {
+    "eyebrow": "09 / TEAM",
+    "title": "Experience across private credit, ticketing, and risk models.",
+    "members": [
+      {
+        "name": "Jose Antonio Toriello",
+        "role": "General Partner",
+        "bio": "Private credit allocator and venture investor who has structured technology, private debt, and artist IP transactions."
+      },
+      {
+        "name": "Gustavo “Goose” Gonzalez",
+        "role": "Chief Technology Officer",
+        "bio": "Co-founder of todoticket.com and former CTO of Hugo App, with experience in ticketing and digital financial architecture."
+      },
+      {
+        "name": "Edwin Kestler",
+        "role": "Chief Scientist",
+        "bio": "Algorithmic systems architect and data scientist leading development and calibration of the CT-GOT demand and risk models."
+      }
+    ],
+    "source": "Summaries based on the PRONESYS executive material; titles subject to editorial confirmation."
+  },
+  "contact": {
+    "eyebrow": "10 / CONTACT",
+    "title": "Let’s discuss capital or your next event.",
+    "lead": "Select your inquiry. Submitted information will be used to respond under the privacy notice.",
+    "investor": "Investor",
+    "promoter": "Promoter or venue",
+    "form": {
+      "name": "Full name",
+      "organization": "Organization",
+      "country": "Country",
+      "role": "Role",
+      "sizeInvestor": "Approximate allocation size",
+      "sizePromoter": "Approximate event size",
+      "message": "Message",
+      "consent": "I have read the privacy notice and agree to the use of this information for a response.",
+      "send": "Send inquiry",
+      "sending": "Sending…",
+      "success": "Inquiry sent. Thanks for reaching out.",
+      "error": "Could not send. Please try again.",
+      "unconfigured": "Inquiry delivery is not configured yet. Set the endpoint before sharing the site with visitors.",
+      "validation": "Please review the highlighted fields.",
+      "required": "Required field",
+      "invalid": "Enter a valid value",
+      "tooLong": "Text exceeds the allowed length"
+    }
+  },
+  "legal": {
+    "eyebrow": "11 / TERMS",
+    "title": "Information for private discussions, subject to legal review.",
+    "sections": [
+      {
+        "title": "Disclaimer",
+        "body": "This site describes a proposed business model. It is not a public securities offering, investment recommendation, credit offer, or guarantee of return. Target figures, estimates, and examples may change. Participation depends on eligibility, definitive documents, and applicable regulation."
+      },
+      {
+        "title": "Privacy",
+        "body": "The inquiry form requests name, organization, country, role, approximate transaction size, and message solely to respond to inquiries. Before activation, the data controller, purpose, lawful basis, retention period, and individual rights must be specified per jurisdiction."
+      },
+      {
+        "title": "Cookies",
+        "body": "This site does not set analytics or advertising cookies. Language and appearance preferences are stored locally in your browser. The hosting provider may process technical logs to deliver the service."
+      }
+    ],
+    "todo": "TODO: legal review, controller identity, and privacy contact before external inquiries go live."
+  },
+  "design": {
+    "eyebrow": "12 / DESIGN SYSTEM",
+    "title": "The elements that make the system legible.",
+    "intro": "A restrained interface for understanding risk, capital, and outcomes.",
+    "colors": "Semantic colors",
+    "colorNames": [
+      "Data / forecast",
+      "Capital / vehicle",
+      "Verification",
+      "Identity / proof",
+      "Settlement",
+      "Risk"
+    ],
+    "type": "Typography",
+    "typeText": "Orbitron for the mark and numerals; sans serif for reading; monospace for numbers.",
+    "components": "Components",
+    "cards": [
+      "Stage card",
+      "Risk indicator",
+      "Metric tile",
+      "Primary button"
+    ],
+    "typeExample": "Underwriting / Risk"
+  }
+}

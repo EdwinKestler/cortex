@@ -1,0 +1,10 @@
+import {useEffect,useRef,useState} from 'react';
+import {useTranslation} from 'react-i18next';
+import {SectionHeader} from './Shell';
+const colors=['var(--teal)','var(--blue)','var(--red)','var(--gold)','var(--violet)','var(--blue)','var(--green)'];
+export function Lifecycle(){const {t}=useTranslation();const stages=t('home.stages',{returnObjects:true}) as Array<{title:string,body:string}>;const [active,setActive]=useState(0);const list=useRef<HTMLDivElement>(null);
+ useEffect(()=>{const root=list.current;if(!root)return;const io=new IntersectionObserver(entries=>{const candidate=entries.filter(e=>e.isIntersecting).sort((a,b)=>b.intersectionRatio-a.intersectionRatio)[0];if(candidate)setActive(Number((candidate.target as HTMLElement).dataset.index));},{root,threshold:[.3,.6,.9]});root.querySelectorAll('[data-index]').forEach(el=>io.observe(el));return ()=>io.disconnect()},[]);
+ const move=(i:number)=>{const n=Math.max(0,Math.min(6,i));setActive(n);(list.current?.children[n] as HTMLElement)?.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'nearest',inline:'center'})};
+ return <section className="section"><div className="wrap"><SectionHeader index="01" heading={t('home.loop')} description={t('home.loopHint')}/><div className="lifecycle" ref={list} role="group" aria-label={t('home.loop')} onKeyDown={e=>{if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();move(active+(e.key==='ArrowRight'?1:-1));(list.current?.children[Math.max(0,Math.min(6,active+(e.key==='ArrowRight'?1:-1)))] as HTMLElement)?.focus()}}}>
+ {stages.map((s,i)=><button className={`stage ${active===i?'selected':''}`} style={{'--card-accent':colors[i]} as React.CSSProperties} key={i} data-index={i} onClick={()=>move(i)} aria-current={active===i?'step':undefined}><span className="stage-number">0{i+1}</span><span className="stage-line"/><strong>{s.title}</strong><span>{s.body}</span></button>)}
+ </div><div className="stage-progress" aria-hidden="true">{stages.map((_,i)=><span key={i} className={active===i?'selected':''}/>)}</div></div></section>}

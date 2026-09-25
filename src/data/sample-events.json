@@ -1,0 +1,6 @@
+[
+  {"func_id":"SYN-001","fecha":"2026-11-14","show_name":"Muestra A / Sala mediana","venue":"Recinto ilustrativo A","capacidad":4000,"p50":[0,140,360,650,980,1350,1740,2140,2520,2900,3230],"p90":[0,250,600,1050,1490,1940,2360,2770,3160,3500,3770],"break_even":2500,"p_break_even":0.82,"generated_at":"2026-09-24T00:00:00Z"},
+  {"func_id":"SYN-002","fecha":"2026-12-05","show_name":"Muestra B / Anfiteatro","venue":"Recinto ilustrativo B","capacidad":7500,"p50":[0,180,460,900,1440,2060,2630,3250,3950,4700,5280],"p90":[0,360,900,1510,2240,3020,3910,4770,5650,6450,7090],"break_even":5700,"p_break_even":0.58,"generated_at":"2026-09-24T00:00:00Z"},
+  {"func_id":"SYN-003","fecha":"2026-10-23","show_name":"Muestra C / Teatro","venue":"Recinto ilustrativo C","capacidad":2200,"p50":[0,110,240,410,620,820,1030,1240,1450,1690,1890],"p90":[0,180,390,630,900,1160,1420,1670,1880,2050,2170],"break_even":1500,"p_break_even":0.77,"generated_at":"2026-09-24T00:00:00Z"},
+  {"func_id":"SYN-004","fecha":"2027-01-16","show_name":"Muestra D / Festival","venue":"Recinto ilustrativo D","capacidad":12000,"p50":[0,320,750,1330,1980,2720,3500,4400,5320,6100,6880],"p90":[0,660,1510,2590,3730,5010,6350,7790,9260,10500,11600],"break_even":7700,"p_break_even":0.45,"generated_at":"2026-09-24T00:00:00Z"}
+]

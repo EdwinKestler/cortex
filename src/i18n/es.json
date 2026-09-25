@@ -1,0 +1,472 @@
+{
+  "meta": {
+    "title": "CORTEX | Financiación de eventos en vivo",
+    "description": "CORTEX conecta previsión de demanda, vehículos por evento y liquidación verificable para financiar eventos en vivo."
+  },
+  "common": {
+    "wordmark": "CORTEX",
+    "tagline": "Capital global. Ejecución local. Evaluación continua del riesgo.",
+    "request": "Solicitar acceso",
+    "contact": "Contacto",
+    "learn": "Explorar cómo funciona",
+    "back": "Volver al inicio",
+    "menu": "Abrir menú",
+    "close": "Cerrar menú",
+    "language": "Idioma",
+    "theme": "Cambiar tema",
+    "dark": "Oscuro",
+    "light": "Claro",
+    "illustrative": "Datos ilustrativos — no son eventos reales",
+    "illustrativeCalc": "Ejemplo ilustrativo; no representa una oferta ni un resultado esperado.",
+    "qualified": "Información para inversionistas calificados o acreditados, sujeta a revisión de elegibilidad y a documentación privada.",
+    "footer": "Solo para fines de conversación. Las estructuras financieras, crediticias, de activos digitales, valores, prevención de lavado de dinero, fiscales y de garantías están sujetas a implementación según la jurisdicción.",
+    "notOffer": "No constituye una oferta pública de valores, asesoría de inversión ni promesa de rendimiento.",
+    "source": "Fuente: documentos de CORTEX / PRONESYS; estimaciones de la empresa.",
+    "skip": "Saltar al contenido",
+    "expand": "Ver detalle técnico",
+    "collapse": "Ocultar detalle técnico",
+    "footerNav": "Navegación secundaria"
+  },
+  "nav": {
+    "home": "Inicio",
+    "problem": "Problema",
+    "solution": "Solución",
+    "ctgot": "CT-GOT",
+    "investors": "Inversionistas",
+    "promoters": "Promotores",
+    "technology": "Tecnología",
+    "market": "Modelo y mercado",
+    "pilot": "Piloto",
+    "team": "Equipo",
+    "contact": "Contacto",
+    "legal": "Información legal",
+    "design": "Diseño"
+  },
+  "home": {
+    "eyebrow": "CORTEX / FINANCIACIÓN DE EVENTOS",
+    "title": "El sistema operativo para financiar eventos en vivo.",
+    "lead": "CORTEX convierte una oportunidad artística en una operación evaluable: previsión de demanda, vehículo por evento, capital, seguimiento y liquidación.",
+    "problemTitle": "El capital entra antes que los ingresos. La evidencia llega después.",
+    "problemBody": "Los promotores deben asumir compromisos antes de abrir ventas. Los inversionistas carecen de visibilidad continua. El capital entre países añade fricción jurídica y de liquidación.",
+    "loop": "Una plataforma. Un ciclo por evento.",
+    "loopHint": "Desplácese o seleccione una etapa para conocer su función.",
+    "pillars": "Tres funciones, un mismo registro operativo",
+    "pillar1": "Evaluación con IA",
+    "pillar1Body": "CT-GOT estima demanda, punto de equilibrio y riesgo, y vuelve a calcular con nuevas ventas.",
+    "pillar2": "Estructuración de capital",
+    "pillar2Body": "Un vehículo por evento coordina condiciones, garantías y financiación local.",
+    "pillar3": "Datos de ejecución",
+    "pillar3Body": "Taquilla, patrocinios y ejecución alimentan decisiones y liquidación verificable.",
+    "closing": "Cada evento deja datos para evaluar mejor el siguiente.",
+    "stages": [
+      {
+        "title": "Oportunidad",
+        "body": "Oferta del artista o reserva preliminar."
+      },
+      {
+        "title": "Simular",
+        "body": "Recinto, precios, capacidad y demanda."
+      },
+      {
+        "title": "Evaluar",
+        "body": "Riesgo y escenarios de retorno con CT-GOT."
+      },
+      {
+        "title": "Financiar",
+        "body": "Vehículo por evento, capital y garantías."
+      },
+      {
+        "title": "Lanzar",
+        "body": "Venta de boletos y promoción."
+      },
+      {
+        "title": "Monitorear",
+        "body": "Ventas y nueva previsión diaria."
+      },
+      {
+        "title": "Liquidar",
+        "body": "Obligaciones, inversionistas y remanente."
+      }
+    ]
+  },
+  "problem": {
+    "eyebrow": "01 / FRICCIÓN",
+    "title": "El capital para eventos llega tarde y con poca visibilidad.",
+    "lead": "Una oportunidad puede ser visible antes de que existan pruebas suficientes para financiarla con rapidez.",
+    "cards": [
+      {
+        "title": "Riesgo concentrado en el promotor",
+        "body": "Garantías de artistas y reservas de recintos se pagan antes de conocer las ventas finales."
+      },
+      {
+        "title": "Cuentas opacas",
+        "body": "La información de taquilla dispersa retrasa evaluación, auditoría y pago."
+      },
+      {
+        "title": "Condiciones que limitan al artista",
+        "body": "Algunos acuerdos capturan derechos amplios y posponen la liquidación después de la gira."
+      }
+    ],
+    "chain": "Señales fragmentadas → evaluación manual → capital lento",
+    "outro": "CORTEX vincula evidencia de demanda, financiación y resultados en un ciclo por evento."
+  },
+  "solution": {
+    "eyebrow": "02 / CICLO CERRADO",
+    "title": "Un ciclo que conecta previsión, financiación y liquidación.",
+    "lead": "Seleccione una etapa. Cada paso produce datos o evidencia para el siguiente.",
+    "nodes": [
+      {
+        "title": "Señales",
+        "body": "Boletos, recinto, interés público y patrocinios alimentan la evaluación."
+      },
+      {
+        "title": "Previsión CT-GOT",
+        "body": "Estima ventas, punto de equilibrio y riesgo antes y durante la operación."
+      },
+      {
+        "title": "Vehículo por evento",
+        "body": "Documenta condiciones, asignación de capital y reglas del evento."
+      },
+      {
+        "title": "GatePass",
+        "body": "Registra boletos, acceso, inventario e identidad para observar la ejecución."
+      },
+      {
+        "title": "Cierre verificado",
+        "body": "Confirma si el evento se completó, canceló o necesita revisión."
+      },
+      {
+        "title": "Pago SplitNight",
+        "body": "Aplica una cascada de pagos según prioridades y condiciones acordadas."
+      },
+      {
+        "title": "Aprendizaje",
+        "body": "Compara previsión y resultado para mejorar la evaluación futura."
+      }
+    ],
+    "aside": "Del primer dato al resultado verificable."
+  },
+  "ctgot": {
+    "eyebrow": "03 / INTELIGENCIA DE DEMANDA",
+    "title": "Decisiones de financiación basadas en demanda y riesgo.",
+    "lead": "CT-GOT modela ritmo de ventas, adecuación del artista al mercado, aforo y probabilidad de alcanzar el punto de equilibrio. La evaluación se actualiza con datos de ejecución.",
+    "gatesTitle": "Compuertas de evaluación",
+    "gates": [
+      {
+        "title": "Demanda",
+        "body": "Curvas de venta y probabilidad de cubrir costos."
+      },
+      {
+        "title": "Estructura",
+        "body": "Aforo, precios y escenarios económicos del evento."
+      },
+      {
+        "title": "Riesgo",
+        "body": "Exposición, VaR/CVaR y revisión al recibir nuevas señales."
+      }
+    ],
+    "demoTitle": "Explorador de escenarios",
+    "demoIntro": "Los cuatro ejemplos son sintéticos. La regla de aprobación del ejemplo exige P(equilibrio) ≥ 70 % y ventas p50 al cierre ≥ punto de equilibrio; no es una política real de inversión.",
+    "event": "Evento de muestra",
+    "curve": "Proyección de boletos vendidos",
+    "p50": "Mediana (p50)",
+    "p90": "Escenario alto (p90)",
+    "be": "Punto de equilibrio",
+    "capacity": "Aforo",
+    "pbe": "P(equilibrio)",
+    "gate": "Compuerta ilustrativa",
+    "pass": "CUMPLE",
+    "fail": "NO CUMPLE",
+    "horizon": "Avance del periodo de ventas",
+    "table": "Datos de la curva",
+    "sample": "Muestra",
+    "generated": "Generado",
+    "sampleNames": {
+      "SYN-001": {
+        "show_name": "Muestra A / Sala mediana",
+        "venue": "Recinto ilustrativo A"
+      },
+      "SYN-002": {
+        "show_name": "Muestra B / Anfiteatro",
+        "venue": "Recinto ilustrativo B"
+      },
+      "SYN-003": {
+        "show_name": "Muestra C / Teatro",
+        "venue": "Recinto ilustrativo C"
+      },
+      "SYN-004": {
+        "show_name": "Muestra D / Festival",
+        "venue": "Recinto ilustrativo D"
+      }
+    }
+  },
+  "investors": {
+    "eyebrow": "04 / CRÉDITO PRIVADO",
+    "title": "S.P.A.R.C. Notes: crédito privado vinculado a cada evento.",
+    "lead": "PRONESYS plantea notas senior respaldadas por flujos de taquilla primaria, con condiciones documentadas por vehículo y criterios de elegibilidad.",
+    "target1": "10–15 %",
+    "target1Label": "rendimiento anual objetivo",
+    "target2": "30–90 días",
+    "target2Label": "plazo objetivo",
+    "target3": "4–5 %",
+    "target3Label": "retorno preferente objetivo por tramo de gira, más posible participación en excedente",
+    "targetNote": "Objetivos indicativos del documento PRONESYS. No son rendimientos garantizados; estructura y disponibilidad sujetas a revisión jurídica y de cada operación.",
+    "structure": "Prioridad documentada por evento",
+    "structureBody": "El vehículo busca aislar obligaciones y flujos del evento. La validez de garantías, prelación y alcance del recurso dependen de documentos y jurisdicción.",
+    "collateral": "Estructura de garantía con bloqueo temporal",
+    "collateralBody": "La reserva sobregarantizada se concibe para absorber caídas y cubrir faltantes conforme a condiciones pactadas; no elimina pérdidas. Custodia pendiente de definición.",
+    "custodyTodo": "PENDIENTE: confirmar custodia de garantías y tratamiento jurídico por jurisdicción.",
+    "waterfall": "Cascada de pagos ilustrativa",
+    "tiers": [
+      "1 · Capital e interés preferente senior",
+      "2 · Comisión de plataforma (2–3 % según documento)",
+      "3 · Remanente entre promotor y artista"
+    ],
+    "calculator": "Calculadora de distribución",
+    "calculatorIntro": "Introduzca supuestos para observar el orden de pago. Si faltan fondos, la obligación senior queda parcialmente impaga; este cálculo no valora garantías ni recuperaciones.",
+    "fields": {
+      "tickets": "Taquilla",
+      "sponsors": "Patrocinios",
+      "merch": "Mercancía",
+      "food": "Alimentos y bebidas",
+      "costs": "Costos del evento",
+      "principal": "Capital senior",
+      "return": "Retorno preferente (%)",
+      "fee": "Comisión de plataforma (%)",
+      "promoter": "Participación del promotor (%)",
+      "artist": "Participación del artista (%)"
+    },
+    "out": {
+      "net": "Ingreso neto del evento",
+      "senior": "Pago a inversionistas senior",
+      "platform": "Comisión de plataforma",
+      "promoter": "Promotor",
+      "artist": "Artista",
+      "shortfall": "Saldo senior pendiente",
+      "deficit": "Déficit operativo",
+      "residual": "Remanente distribuible"
+    },
+    "formula": "Rnet = taquilla + patrocinios + mercancía + alimentos y bebidas − costos. Tras pagar prioridades, Pᵢ = αᵢ × remanente; Σαᵢ = 1.",
+    "pathsTitle": "Tres rutas de liquidación",
+    "paths": [
+      {
+        "title": "Éxito",
+        "steps": [
+          "Evaluación aprobada",
+          "Vehículo financiado",
+          "Evento ejecutado",
+          "Cierre confirmado",
+          "SplitNight distribuye"
+        ]
+      },
+      {
+        "title": "Cancelación y devolución",
+        "steps": [
+          "Alerta de riesgo",
+          "Cancelación confirmada",
+          "Ventana de prueba",
+          "Se activa devolución",
+          "Se concilian fondos"
+        ]
+      },
+      {
+        "title": "Excepción",
+        "steps": [
+          "Falla entre dominios",
+          "Ruta acordada",
+          "Plazo vence",
+          "Proceso de recuperación",
+          "Estado final documentado"
+        ]
+      }
+    ],
+    "cta": "Solicitar acceso a la información privada",
+    "gateNotice": "El acceso, la elegibilidad y cualquier inversión requieren verificación independiente y documentos específicos."
+  },
+  "promoters": {
+    "eyebrow": "05 / PROMOTORES Y RECINTOS",
+    "title": "Financie compromisos antes de abrir la taquilla.",
+    "lead": "Explore capital para garantías de artistas y reservas de recintos con criterios de riesgo explícitos y seguimiento de ventas.",
+    "cards": [
+      {
+        "title": "Preparar la operación",
+        "body": "Evaluar aforo, demanda, precios y costos antes de comprometer capital."
+      },
+      {
+        "title": "Conectar la venta",
+        "body": "GatePass vincula boletos, inventario y acceso con la ejecución observable."
+      },
+      {
+        "title": "Conocer la prioridad de pagos",
+        "body": "SplitNight permite pactar por adelantado la cascada de pagos."
+      }
+    ],
+    "cta": "Presentar un evento"
+  },
+  "technology": {
+    "eyebrow": "06 / ARQUITECTURA",
+    "title": "Operación ágil. Evidencia verificable. Liquidación flexible.",
+    "lead": "La estructura jurídica da certeza; las pruebas reducen las disputas.",
+    "layers": [
+      {
+        "title": "Plano operativo",
+        "body": "Previsiones CT-GOT, evaluación, documentos y seguimiento funcionan fuera de cadena."
+      },
+      {
+        "title": "Pruebas verificables",
+        "body": "Compromisos de estilo RGB pueden vincular derechos y estados contractuales sin publicar datos sensibles."
+      },
+      {
+        "title": "Liquidación elegida",
+        "body": "Las reglas de pago pueden ejecutarse en la vía adecuada para cada operación. Los mecanismos entre dominios se reservan para cuando aporten valor."
+      }
+    ],
+    "techTitle": "Detalle técnico",
+    "techBody": "La prueba se valida del lado del cliente; datos y documentos permanecen en sistemas con permisos. Una atestación firmada confirma el estado de cierre. El reparto económico de SplitNight se especifica por separado de cualquier mecanismo de intercambio entre redes. El uso de RGB o de activos digitales requiere implementación y revisión jurídica específicas.",
+    "note": "Arquitectura propuesta; cada integración necesita validación técnica, operativa y legal."
+  },
+  "market": {
+    "eyebrow": "07 / MODELO ECONÓMICO",
+    "title": "Una oportunidad de capital de trabajo en la música en vivo.",
+    "lead": "Las cifras de mercado y las tasas siguientes son estimaciones de la empresa tomadas del documento PRONESYS, no datos auditados ni resultados históricos de CORTEX.",
+    "market1": "USD 40 mil millones",
+    "market1Label": "estimación de mercado anual de giras",
+    "market2": "Más de USD 15 mil millones",
+    "market2Label": "estimación de necesidad de capital de trabajo",
+    "fees": "Fuentes de ingreso planteadas",
+    "feeItems": [
+      {
+        "value": "2,0 %",
+        "label": "comisión de originación sobre capital prefinanciado"
+      },
+      {
+        "value": "3,0 %",
+        "label": "comisión de sindicación del vehículo"
+      },
+      {
+        "value": "10 %",
+        "label": "margen planteado de venta primaria de boletos"
+      },
+      {
+        "value": "20 %",
+        "label": "participación en utilidades por encima del retorno preferente"
+      }
+    ],
+    "note": "Modelo propuesto; las tarifas reales dependen de contratos, regulación y operación."
+  },
+  "pilot": {
+    "eyebrow": "08 / PLAN PROPUESTO",
+    "title": "De la selección de eventos a una primera operación evaluable.",
+    "lead": "Hitos propuestos para un piloto de 90 días; no representan compromisos cerrados ni resultados alcanzados.",
+    "phases": [
+      {
+        "time": "Días 0–30",
+        "title": "Seleccionar y estructurar",
+        "body": "Definir eventos piloto, plantillas de vehículo y fuentes de evidencia; puntuar demanda."
+      },
+      {
+        "time": "Días 30–60",
+        "title": "Probar financiación y venta",
+        "body": "Ofertas preliminares, acceso privado de inversionistas, pruebas de GatePass y del cierre verificado."
+      },
+      {
+        "time": "Días 60–90",
+        "title": "Ejecutar y documentar",
+        "body": "Ensayar liquidación, financiar el primer evento si cumple las condiciones y producir un informe de resultados."
+      }
+    ],
+    "ask": "La solicitud para el piloto",
+    "askBody": "Capital estratégico para un grupo inicial, 2–3 oportunidades evaluables, presentaciones a promotores y recintos, y apoyo de estructuración jurídica."
+  },
+  "team": {
+    "eyebrow": "09 / EQUIPO",
+    "title": "Experiencia en capital privado, taquilla y modelos de riesgo.",
+    "members": [
+      {
+        "name": "Jose Antonio Toriello",
+        "role": "Socio general",
+        "bio": "Inversionista de crédito privado y capital de riesgo; ha estructurado operaciones tecnológicas, de deuda privada y vinculadas a propiedad intelectual artística."
+      },
+      {
+        "name": "Gustavo «Goose» Gonzalez",
+        "role": "Director de tecnología",
+        "bio": "Cofundador de todoticket.com y exdirector de tecnología de Hugo App; experiencia en taquilla y arquitectura financiera digital."
+      },
+      {
+        "name": "Edwin Kestler",
+        "role": "Director científico",
+        "bio": "Arquitecto de sistemas algorítmicos y científico de datos que lidera el desarrollo y la calibración de los modelos de demanda y riesgo CT-GOT."
+      }
+    ],
+    "source": "Resúmenes basados en el documento ejecutivo PRONESYS; cargos sujetos a confirmación editorial."
+  },
+  "contact": {
+    "eyebrow": "10 / CONTACTO",
+    "title": "Conversemos sobre capital o sobre su próximo evento.",
+    "lead": "Elija el tipo de consulta. La información enviada se utilizará para responderle conforme al aviso de privacidad.",
+    "investor": "Inversionista",
+    "promoter": "Promotor o recinto",
+    "form": {
+      "name": "Nombre completo",
+      "organization": "Organización",
+      "country": "País",
+      "role": "Cargo",
+      "sizeInvestor": "Tamaño aproximado de asignación",
+      "sizePromoter": "Tamaño aproximado del evento",
+      "message": "Mensaje",
+      "consent": "He leído el aviso de privacidad y acepto el tratamiento de estos datos para recibir una respuesta.",
+      "send": "Enviar consulta",
+      "sending": "Enviando…",
+      "success": "Consulta enviada. Gracias por escribirnos.",
+      "error": "No se pudo enviar. Inténtelo de nuevo.",
+      "unconfigured": "La recepción de solicitudes aún no está habilitada. Configure el endpoint antes de compartir el sitio con visitantes.",
+      "validation": "Revise los campos señalados.",
+      "required": "Campo obligatorio",
+      "invalid": "Introduzca un dato válido",
+      "tooLong": "El texto supera el límite permitido"
+    }
+  },
+  "legal": {
+    "eyebrow": "11 / CONDICIONES",
+    "title": "Información para conversaciones privadas, sujeta a revisión jurídica.",
+    "sections": [
+      {
+        "title": "Descargo de responsabilidad",
+        "body": "Este sitio describe una propuesta comercial. No constituye oferta pública de valores, recomendación de inversión, concesión de crédito ni garantía de rentabilidad. Las cifras objetivo, estimaciones y ejemplos pueden cambiar. La participación dependerá de elegibilidad, documentos definitivos y regulación aplicable."
+      },
+      {
+        "title": "Privacidad",
+        "body": "El formulario solicita nombre, organización, país, cargo, tamaño estimado de operación y mensaje únicamente para responder a consultas. Antes de activar el formulario se debe identificar al responsable, la finalidad, la base legal, el periodo de conservación y los derechos de las personas por jurisdicción."
+      },
+      {
+        "title": "Cookies",
+        "body": "El sitio no instala cookies analíticas ni de publicidad. La preferencia de idioma y apariencia se conserva localmente en su navegador. Un proveedor de alojamiento puede procesar registros técnicos para prestar el servicio."
+      }
+    ],
+    "todo": "PENDIENTE: revisión jurídica, datos del responsable y contacto de privacidad antes de abrir solicitudes externas."
+  },
+  "design": {
+    "eyebrow": "12 / SISTEMA DE DISEÑO",
+    "title": "Los elementos que hacen legible el sistema.",
+    "intro": "Una interfaz sobria para entender riesgo, capital y resultados.",
+    "colors": "Colores semánticos",
+    "colorNames": [
+      "Datos / previsión",
+      "Capital / vehículo",
+      "Verificación",
+      "Identidad / prueba",
+      "Liquidación",
+      "Riesgo"
+    ],
+    "type": "Tipografía",
+    "typeText": "Orbitron para marca y numerales; sans serif para lectura; monoespaciada para cifras.",
+    "components": "Componentes",
+    "cards": [
+      "Tarjeta de etapa",
+      "Indicador de riesgo",
+      "Dato cuantitativo",
+      "Botón principal"
+    ],
+    "typeExample": "Evaluación / Riesgo"
+  }
+}
