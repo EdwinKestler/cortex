@@ -43,6 +43,75 @@
     "design": "Design"
   },
   "home": {
+    "headlineA": "Live music.",
+    "headlineB": "Capital in motion.",
+    "edition": "FROM FIRST SIGNAL TO FINAL SETTLEMENT",
+    "heroDescription": "Demand intelligence, structured capital, and programmable settlement. Connected from the artist offer to the event close.",
+    "promoterCta": "Finance my event",
+    "explore": "Explore the ecosystem",
+    "imageCredit": "AI-generated conceptual image; not an actual CORTEX event.",
+    "problemEyebrow": "01 / BEHIND THE STAGE",
+    "problemLink": "Understand the problem",
+    "audienceTitle": "Two sides of the stage. One connected system.",
+    "audiences": [
+      {
+        "label": "FOR INVESTORS",
+        "title": "Capital with a structure. Not just a story.",
+        "body": "Meet PRONESYS / S.P.A.R.C. Notes: the first proposed product for qualified investors, with event vehicles and senior repayment priority.",
+        "cta": "Explore the investment approach"
+      },
+      {
+        "label": "FOR PROMOTERS & VENUES",
+        "title": "From the next big show to the next step.",
+        "body": "Pre-financing for guarantees and venue holds, direct-to-fan ticketing, and box-office monitoring to inform decisions throughout the event.",
+        "cta": "Build the next event"
+      }
+    ],
+    "encoreEyebrow": "THE END OF ONE SHOW. THE START OF THE NEXT.",
+    "ecosystem": {
+      "eyebrow": "02 / THE CORTEX ECOSYSTEM",
+      "title": "Every part has a role. All share the rhythm.",
+      "intro": "CORTEX is the platform. Its components connect demand, capital, execution, and settlement in a learning loop.",
+      "platform": "CORTEX / OPERATING SYSTEM",
+      "label": "PRODUCT ARCHITECTURE",
+      "handoff": "WHAT IT CONNECTS",
+      "learning": "↳ CONTINUOUS LEARNING",
+      "learningBody": "Every event's outcome feeds the underwriting of the next.",
+      "items": [
+        {
+          "name": "CT-GOT",
+          "role": "DEMAND INTELLIGENCE",
+          "headline": "Read the demand. Before committing the capital.",
+          "body": "Models sell-through probability, break-even velocity, and risk. Updates the forecast as new signals arrive.",
+          "handoff": "Demand signals → scenarios for financing decisions.",
+          "cta": "Explore the model and demo"
+        },
+        {
+          "name": "Capital / SPV",
+          "role": "CAPITAL STRUCTURING",
+          "headline": "One event. A defined financial structure.",
+          "body": "An event vehicle separates obligations and coordinates capital, collateral, and terms. PRONESYS / S.P.A.R.C. Notes is the first proposed product for qualified investors.",
+          "handoff": "Risk assessment → vehicle, terms, and financing.",
+          "cta": "Discover S.P.A.R.C. Notes"
+        },
+        {
+          "name": "GatePass",
+          "role": "TICKETS, ACCESS & IDENTITY",
+          "headline": "The pulse of the event, from the first ticket.",
+          "body": "Connects tickets, access, inventory, and identity. Execution data feeds operational monitoring and updated CT-GOT forecasts.",
+          "handoff": "Sales and access → execution data and verifiable close.",
+          "cta": "See the execution loop"
+        },
+        {
+          "name": "SplitNight",
+          "role": "REVENUE WATERFALL",
+          "headline": "Clear rules. From close to settlement.",
+          "body": "Applies a defined waterfall: senior priority, platform fee, and residual split. The process distinguishes success, cancellation with refunds, and exceptions.",
+          "handoff": "Attested close → obligations, payouts, and learning.",
+          "cta": "Explore the revenue waterfall"
+        }
+      ]
+    },
     "eyebrow": "CORTEX / LIVE-EVENT FINANCE",
     "title": "The operating system for financing live events.",
     "lead": "CORTEX turns an artist opportunity into an underwritable transaction: demand forecasts, an event vehicle, capital, monitoring, and settlement.",
@@ -448,7 +517,7 @@
   "design": {
     "eyebrow": "12 / DESIGN SYSTEM",
     "title": "The elements that make the system legible.",
-    "intro": "A restrained interface for understanding risk, capital, and outcomes.",
+    "intro": "The energy of a stage with the precision of a financial system: graphite, editorial contrast, and color with meaning.",
     "colors": "Semantic colors",
     "colorNames": [
       "Data / forecast",

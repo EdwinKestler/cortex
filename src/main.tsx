@@ -2,6 +2,7 @@ import React from 'react';
 import {createRoot} from 'react-dom/client';
 import './i18n';
 import './style.css';
+import './redesign.css';
 import {Shell,currentRoute} from './components/Shell';
 import {Home,Problem,Solution,CTGOT,Investors,Promoters,Technology,Market,Pilot,Team,Contact,Legal,Design} from './pages/Pages';
 const pages={home:Home,problem:Problem,solution:Solution,ctgot:CTGOT,investors:Investors,promoters:Promoters,technology:Technology,market:Market,pilot:Pilot,team:Team,contact:Contact,legal:Legal,design:Design};

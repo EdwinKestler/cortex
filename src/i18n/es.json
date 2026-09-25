@@ -43,6 +43,75 @@
     "design": "Diseño"
   },
   "home": {
+    "headlineA": "Música en vivo.",
+    "headlineB": "Capital en movimiento.",
+    "edition": "DE LA PRIMERA SEÑAL AL ÚLTIMO PAGO",
+    "heroDescription": "Inteligencia de demanda, capital estructurado y liquidación programable. Conectados desde la oferta al artista hasta el cierre del evento.",
+    "promoterCta": "Financiar mi evento",
+    "explore": "Explorar el ecosistema",
+    "imageCredit": "Imagen conceptual generada con IA; no representa un evento de CORTEX.",
+    "problemEyebrow": "01 / DETRÁS DEL ESCENARIO",
+    "problemLink": "Entender el problema",
+    "audienceTitle": "Dos lados del escenario. Un mismo sistema.",
+    "audiences": [
+      {
+        "label": "PARA INVERSIONISTAS",
+        "title": "Capital con estructura. No solo una historia.",
+        "body": "Conozca PRONESYS / S.P.A.R.C. Notes: la primera propuesta de producto para inversionistas calificados, con vehículos por evento y prioridad de pago senior.",
+        "cta": "Explorar la propuesta"
+      },
+      {
+        "label": "PARA PROMOTORES Y RECINTOS",
+        "title": "Del próximo gran show al próximo paso.",
+        "body": "Prefinanciación de garantías y reservas, venta directa a los fans y seguimiento de taquilla para tomar decisiones durante todo el evento.",
+        "cta": "Construir el próximo evento"
+      }
+    ],
+    "encoreEyebrow": "EL FINAL DE UN SHOW. EL INICIO DEL SIGUIENTE.",
+    "ecosystem": {
+      "eyebrow": "02 / EL ECOSISTEMA CORTEX",
+      "title": "Cada parte tiene un papel. Todas comparten el ritmo.",
+      "intro": "CORTEX es la plataforma. Sus componentes conectan demanda, capital, ejecución y liquidación en un ciclo que aprende.",
+      "platform": "CORTEX / SISTEMA OPERATIVO",
+      "label": "ARQUITECTURA DEL PRODUCTO",
+      "handoff": "LO QUE CONECTA",
+      "learning": "↳ APRENDIZAJE CONTINUO",
+      "learningBody": "El resultado de cada evento vuelve a alimentar la evaluación del siguiente.",
+      "items": [
+        {
+          "name": "CT-GOT",
+          "role": "INTELIGENCIA DE DEMANDA",
+          "headline": "Leer la demanda. Antes de comprometer el capital.",
+          "body": "Modela la probabilidad de venta, la velocidad necesaria para alcanzar el equilibrio y el riesgo. Actualiza la previsión a medida que llegan nuevas señales.",
+          "handoff": "Señales de demanda → escenarios para evaluar la financiación.",
+          "cta": "Explorar el modelo y la demo"
+        },
+        {
+          "name": "Capital / SPV",
+          "role": "ESTRUCTURACIÓN FINANCIERA",
+          "headline": "Un evento. Una estructura financiera definida.",
+          "body": "Un vehículo por evento separa obligaciones y coordina capital, garantías y condiciones. PRONESYS / S.P.A.R.C. Notes es la primera propuesta de producto para inversionistas calificados.",
+          "handoff": "Evaluación de riesgo → vehículo, condiciones y financiación.",
+          "cta": "Conocer S.P.A.R.C. Notes"
+        },
+        {
+          "name": "GatePass",
+          "role": "BOLETOS, ACCESO E IDENTIDAD",
+          "headline": "El pulso del evento, desde la primera entrada.",
+          "body": "Conecta boletos, acceso, inventario e identidad. La información de ejecución alimenta el seguimiento operativo y las nuevas previsiones de CT-GOT.",
+          "handoff": "Venta y acceso → datos de ejecución y cierre verificable.",
+          "cta": "Ver el ciclo de ejecución"
+        },
+        {
+          "name": "SplitNight",
+          "role": "CASCADA DE PAGOS",
+          "headline": "Reglas claras. Del cierre a la liquidación.",
+          "body": "Aplica una cascada de pagos definida: prioridad senior, comisión de plataforma y reparto del remanente. El recorrido distingue éxito, cancelación con reembolsos y excepciones.",
+          "handoff": "Cierre atestado → obligaciones, pagos y aprendizaje.",
+          "cta": "Explorar la cascada de pagos"
+        }
+      ]
+    },
     "eyebrow": "CORTEX / FINANCIACIÓN DE EVENTOS",
     "title": "El sistema operativo para financiar eventos en vivo.",
     "lead": "CORTEX convierte una oportunidad artística en una operación evaluable: previsión de demanda, vehículo por evento, capital, seguimiento y liquidación.",
@@ -448,7 +517,7 @@
   "design": {
     "eyebrow": "12 / SISTEMA DE DISEÑO",
     "title": "Los elementos que hacen legible el sistema.",
-    "intro": "Una interfaz sobria para entender riesgo, capital y resultados.",
+    "intro": "La energía de un escenario con la precisión de un sistema financiero: grafito, contraste editorial y color con significado.",
     "colors": "Colores semánticos",
     "colorNames": [
       "Datos / previsión",

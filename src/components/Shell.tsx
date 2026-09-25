@@ -14,7 +14,7 @@ export function Shell({children}:{children:React.ReactNode}){
  useEffect(()=>{document.documentElement.dataset.theme=theme;localStorage.setItem('cortex-theme',theme)},[theme]);
  useEffect(()=>{if(!menu)return;const onKey=(e:KeyboardEvent)=>{if(e.key==='Escape')setMenu(false)};window.addEventListener('keydown',onKey);return()=>window.removeEventListener('keydown',onKey)},[menu]);
  const switchHref=href(lang==='es'?'en':'es',route);
- return <><a className="skip" href="#main">{t('common.skip')}</a><div className="site-shell">
+ return <><a className="skip" href="#main">{t('common.skip')}</a><div className="site-shell" data-route={route}>
  <header className="site-header"><div className="header-inner">
  <a className="brand" href={href(lang,'home')} aria-label="CORTEX"><span className="brand-mark" aria-hidden="true">C<span className="brand-dot"/></span><span className="brand-text">CORTEX<span className="brand-slash"> /</span></span></a>
  <nav className="nav-desktop" aria-label={t('common.menu')}>{mainNav.map(k=><a className={route===k?'active':''} aria-current={route===k?'page':undefined} key={k} href={href(lang,k)}>{t(`nav.${k}`)}</a>)}</nav>
